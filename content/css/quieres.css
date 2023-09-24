@@ -1,0 +1,178 @@
+/* from big tablet to 1200  */
+@media  (min-width: 1200px) {
+body {
+    position: relative;
+}
+.NAVV{
+    /* border: 2px solid red; */
+    position: absolute; 
+    top: 20px;
+    /* left: 30px;  */
+    justify-self: center;
+    align-self: center;
+}
+
+}
+@media (min-width: 1200px) and (max-width: 1235px) {
+    .NAVV{
+        /* border: 2px solid red; */
+        position: absolute; 
+        top: 20px;
+        left: 40px;
+        justify-self: center;
+        align-self: center;
+    }
+    
+}
+/* small tablet - big tablet 768-1023  */
+@media (min-width: 992px) and (max-width: 1060px) {
+    .NAVV{
+        /* border: 2px solid red; */
+        position: absolute; 
+        top: 20px;
+        left: 40px;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media  (min-width: 818px) and (max-width:991px) {
+    .NAVV{
+        /* border: 2px solid red; */
+        /* position: absolute;  */
+        top: 20px;
+        /* left: 40px; */
+        justify-self: center;
+        align-self: center;
+    }
+    .light-green,.TazZA{
+        display: none;
+    }
+    .nav-4  {
+        position: absolute; 
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        gap: 10px;
+        top: 5px;
+    }
+}
+@media  (min-width: 768px) and (max-width:817px) {
+    .NAVV{
+        /* border: 2px solid red; */
+        /* position: absolute;  */
+        top: 20px;
+        left: 10px;
+        justify-self: center;
+        align-self: center;
+    }
+    .light-green,.TazZA{
+        display: none;
+    }
+    .nav-4  {
+        position: absolute; 
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        gap: 10px;
+        top: 5px;
+    }
+    .light-green,.TazZA{
+        display: none;
+    }
+    
+}
+
+/* small phone to small tablet 481-767  */
+@media (min-width: 640px) and (max-width: 767px) {
+.light-green,.TazZA{
+    display: none;
+}
+.NAVV{
+    /* border: 2px solid red; */
+    /* position: absolute;  */
+    top: 20px;
+    /* left: 10px; */
+    justify-self: center;
+    align-self: center;
+}
+.light-green,.TazZA{
+    display: none;
+}
+.nav-4  {
+    position: absolute; 
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    gap: 10px;
+    top: 5px;
+}
+
+
+}
+
+@media (min-width: 400px) and (max-width: 639px) {
+    .light-green,.TazZA{
+        display: none;
+    }
+    .NAVV{
+        /* border: 2px solid red; */
+        /* position: absolute;  */
+        top: 20px;
+        left: 10px;
+        justify-self: center;
+        align-self: center;
+        /* height: auto; */
+        
+    }
+    .light-green,.TazZA{
+        display: none;
+    }
+    .nav-4  {
+        position: absolute; 
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* height: auto; */
+        gap: 10px;
+        top: 5px;
+    }
+    
+    
+
+}
+
+
+@media (min-width: 280px) and (max-width: 399px) {
+    .light-green,.TazZA{
+        display: none;
+    }
+    .NAVV{
+        /* border: 2px solid red; */
+        /* position: absolute;  */
+        top: 20px;
+        left: 10px;
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+        /* height: auto; */
+        
+    }
+    .light-green,.TazZA{
+        display: none;
+    }
+    .nav-4  {
+        position: absolute; 
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* height: auto; */
+        gap: 10px;
+        top: 5px;
+    }
+    
+    
+
+}
